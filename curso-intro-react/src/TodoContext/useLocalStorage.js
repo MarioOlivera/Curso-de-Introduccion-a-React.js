@@ -11,7 +11,6 @@ function useLocalStorage(itemName, initialValue)
     setTimeout(() => {
       try
       {
-        throw("asdsad");
         const localStorageItem = localStorage.getItem(itemName)
   
         let parsedItem;
